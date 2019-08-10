@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Fixedsys';
+    src: url("FSEX300.ttf");
+}
+
+.teacherStudentSelector {
+    font-family: 'Fixedsys';
+    color: #dddddd;
+    font-size: 24px;
+    font-weight: 100;
+    margin: 5px 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.selected_nav {
+    text-decoration: underline;
+}

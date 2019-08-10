@@ -1,0 +1,20 @@
+#overlayScreen {
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: rgba(#000,.79);
+    z-index: 1;
+}
+#holderFormulaFinal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 600px;
+    background: #b0b0b0;
+    box-shadow: 0px 0px 7px 0px #fff;
+    border-radius: 7px;
+}

@@ -1,0 +1,16 @@
+.buttonLight {
+    margin-top: 21px;
+    font-family: FranklinGothicDemiC;
+    background: white;
+    border: none;
+    color: #515151;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s ease-in-out background, .2s ease-in-out color;
+    &:hover {
+        color: white;
+        background: #515151;
+        transition: .2s ease-in-out background, .2s ease-in-out color;
+    }
+}

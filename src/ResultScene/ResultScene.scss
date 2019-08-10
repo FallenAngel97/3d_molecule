@@ -1,0 +1,40 @@
+#name_of_reaction {
+    font-style: italic;
+    background: rgba(255,255,255,.4);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 3px;
+    padding-left: 5px;
+    color: #fff;
+    margin-top: 17px;
+}
+.singleSphereResult {
+    height: 36px;
+    width: 50px;
+    background: radial-gradient(circle at 20px 5px , #575757, #000);
+    border-radius: 50px;
+    padding-top: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0px 0px 11px 0px #ececa3;
+    }
+}
+.Cl_letter {
+    background: radial-gradient(circle at 20px 5px , #00d51a, #000);
+}
+.H_letter {
+    background: radial-gradient(circle at 20px 5px , #5cabff, #000);
+}
+.O_letter {
+    background: radial-gradient(circle at 20px 5px , #dedede, #000);
+}
+.P_letter {
+    background: radial-gradient(circle at 20px 5px , #813c40, #000);    
+}
+.resultSphereHolder {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}

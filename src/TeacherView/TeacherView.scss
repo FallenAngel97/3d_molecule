@@ -1,0 +1,37 @@
+aside {
+    float:right;
+    text-align: center;
+}
+main {
+    margin: 16px 0 0 36px;
+}
+#formulae {
+    box-shadow: inset 2px 2px 3px #0006;
+    border-radius: 4px;
+    border: none;
+    padding: 4px;
+    text-align: right;
+    color: #999;
+    width: 269px;
+    padding-left: 10px;
+}
+#formulaHolder {
+    margin-top: 55px;
+    position: relative;
+    math {
+        position: absolute;
+        left: 66px;
+        top: 2px;
+    }
+}
+#controlButtons {
+    position: absolute;
+    left:850px;
+}
+#reactiontext {
+    text-align: center;
+    font-family: FranklinGothicDemiC;
+    color: #fff;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px #000;
+}

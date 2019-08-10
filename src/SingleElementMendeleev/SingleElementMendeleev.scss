@@ -1,0 +1,55 @@
+$size:80px;
+
+.emptyElement{
+    height:$size;
+    display: inline-block;
+    width:$size;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.singleElementMendeleev {
+    height:$size;
+    display: inline-block;
+    width:$size;
+    border:1px solid #eee;
+    position: relative;
+    color:#eee;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .2s ease-in-out background;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none;
+            user-select: none; 
+    &:hover {
+        background: rgba(violet,.5);
+    }
+}
+.elementMass{
+    position: absolute;
+    right:5px;
+    top:5px;
+    font-family: Arial;
+}
+.cyrillicName {
+    position: absolute;
+    bottom:5px;
+    left:5px;
+    font-family: Arial;
+}
+.elementLetter {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-family: FranklinGothicDemiC;
+    font-size: 30px;
+}
+
+.elementNum {
+    position: absolute;
+    top:5px;
+    left:5px;
+}

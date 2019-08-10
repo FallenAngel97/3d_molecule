@@ -1,0 +1,104 @@
+#formulae {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.4);
+    color: rgba(255,255,255,.4);
+    font-family: FranklinGothicDemiC;
+    font-size: 21px;
+    width: 193px;
+    text-align: center;
+}
+#generate {
+    left:50%;
+    transform: translateX(-50%);
+    top: 75px;
+    position: absolute;
+}
+body {
+    background-color: #444444;
+    margin: 0px;
+    padding:0;
+}
+#mainFormulas {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+    background: linear-gradient(to bottom, transparent, rgba(255,255,255,.5), transparent);
+    height: 80%;
+    width: 122px;;
+}
+#formulaWrapper {
+    position: relative;
+    font-family: Arial;
+    color: #fff;
+    font-size: 24px;
+}
+.singleFormulaGeneral {
+    cursor: pointer;
+    margin-bottom: -11px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.singleFormula {
+    margin: 10px 0;
+    transition: .2s ease-in-out background;
+    &:hover {
+        background: rgba(0,0,0,.15);
+    }
+    span {
+        font-family: FranklinGothicDemiC;
+        font-style: italic;
+        font-size: 14px;
+    }
+}
+#chemicalProperties {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width:200px;
+    height: 80%;
+    background: rgba(255,255,255,.3);
+}
+.elementName {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: FranklinGothicDemiC;
+    font-size: 35px;
+    color: #fff;
+}
+.massMolecule {
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    color: #fff;
+}
+
+.boxElement {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.nameElement {
+    position: absolute;
+    bottom: 4px;
+    left: 5px;
+    color: #fff;
+}
+
+.elementCount {
+    position: absolute;
+    color: #fff;
+    top: 2px;
+    left: 2px;
+}

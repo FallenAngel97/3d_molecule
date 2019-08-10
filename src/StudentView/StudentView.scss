@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Hack Bold';
+    src: url("Hack-Bold.ttf");
+}
+
+.sign {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 91px;
+    color: #fff;
+}
+.reactionName {
+    color: #fff;
+    font-family: Arial;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.moleculeHolder {
+    position: relative;
+}
+.deleteReaction {
+    color: #fff;
+    background: gray;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px 0px #00000080;
+    position: absolute;
+    left: 50%;
+    bottom: 26px;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: .2s ease-in-out background, .2s ease-in-out color;
+    span {
+        font-family: 'Hack Bold';
+        vertical-align: middle;
+    }
+    &:hover {
+        background: #fff;
+        color: gray;
+    }
+}
