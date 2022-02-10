@@ -31,7 +31,7 @@
     "file-loader": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.19.1",
     "react-hot-loader": "^4.12.10",
     "sass-loader": "^7.2.0",
