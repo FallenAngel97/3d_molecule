@@ -29,7 +29,7 @@
     "closure-webpack-plugin": "^1.2.0",
     "css-loader": "^1.0.1",
     "file-loader": "^2.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.12.0",
     "nodemon": "^1.19.1",
